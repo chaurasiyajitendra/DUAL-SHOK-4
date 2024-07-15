@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgba(4, 6, 56, 0.95);
+}
+.bg1{
+    height: 350px;
+    width: 350px;
+    border-radius: 5%;
+    position: absolute;
+    right: 350px;
+    background-color: rgb(98, 136, 189);
+    filter: blur(100px);
+}
+.bg2{
+    height: 350px;
+    width: 350px;
+    border-radius: 5%;
+    position: absolute;
+    left: 0px;
+    top: 180px;
+    background-color: rgb(98, 136, 189);
+    filter: blur(100px);
+}
+.bg3{
+    height: 250px;
+    width: 350px;
+    border-radius: 5%;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background-color: rgb(98, 136, 189);
+    filter: blur(100px);
+
+}
+#console{
+    height: 550px;
+    width: 480px;
+    background-color: rgba(106, 168, 168, 0.735);
+    border-radius: 15px;
+    position: absolute;
+    top: 90px;
+    left: 100px;     
+}
+#console{
+    font-size: 90px;
+    transform: rotate(-90deg);
+    font-weight: 900;
+    font-family: "Lucida Handwriting", cursive;
+    color: rgba(255, 255, 255, 0.505);
+}
+#c1{
+    color: rgba(255, 255, 255, 0.756);
+    margin-bottom: 18px;
+}
+#c2{
+    color: rgba(255, 255, 255, 0.776);
+    margin-bottom: 18px;
+}
+#c3{
+    color: rgb(255, 255, 255);
+    margin-bottom: 18px;
+}
+#other{
+    position: absolute;
+    top: 149px;
+    height: 442px;
+    width: 700px;
+    background-color: rgb(77, 103, 175);
+    border-radius: 13px;
+    left: 423px;
+    filter:contrast(20px);
+}
+#ppp{
+   
+}
+img{
+    position: absolute;
+    top: 163px;
+    height: 407px;
+    width: auto;
+    z-index: 1;
+    left: 128px;
+    filter: drop-shadow(25px 4px 25px rgba(20, 20, 20, 0.765))
+}
+#DUAL{
+    z-index: 2;
+    position: absolute;
+    top: 155px;
+    left: 739px;
+    color: wheat;
+    font-size: 45px
+}
+#Wireless{
+    position: absolute;
+    top: 198px;
+    left: 739px;
+    color: wheat;
+    font-size: 15px;
+    letter-spacing: 1.8px;
+}
+#price{
+    position: absolute;
+    top: 286px;
+    left: 739px;
+    color: wheat;
+    font-size: 24px;
+}
+.Colur{
+    position: absolute;
+    top: 344px;
+    left: 739px;
+    color: wheat;
+    font-size: 18px;
+    font-weight: 100;
+}
+#Colur1{
+    position: absolute;
+    top: 350px;
+    left: 803px;
+    cursor: pointer;
+}
+#Colur2{
+    position: absolute;
+    top: 350px;
+    left: 830px;
+    cursor: pointer;
+}
+#Colur2:checked{
+    accent-color: red;
+}
+#Colur3{
+    position: absolute;
+    top: 350px;
+    left: 860px;
+    cursor: pointer;
+}
+#Colur3:checked{
+    accent-color: rgb(219, 197, 69);
+}
+#Colur4{
+    position: absolute;
+    top: 350px;
+    left: 890px;
+    cursor: pointer;
+}
+#Colur4:checked{
+    accent-color:rgb(32, 154, 32);
+}
+.info{
+    position: absolute;
+    top: 395px;
+    left: 739px;
+    color: wheat;
+}
+.info1{
+    position: absolute;
+    top: 412px;
+    left: 739px;
+    color: wheat;
+}
+.info2{
+    position: absolute;
+    top: 428px;
+    left: 739px;
+    color: wheat;
+}
+button{
+    /* height: 37px;
+    width: 125px; */
+}
+.Add{
+    position: absolute;
+    top: 483px;
+    left: 739px;
+    height: 37px;
+    width: 125px;
+    border-radius: 25px;
+    border: none;
+    color: black;
+    font-weight: 900;
+    cursor: pointer;
+   
+}
+.Add:hover{
+    background-color: blue;
+    color: aliceblue;
+}
+
+.Add:active{
+    background-color: pink;
+    color: white;
+}
+#but{
+    position: absolute;
+    top: 492px;
+    left: 889px;
+    font-size: 19px;
+    font-weight: 900;
+    color: wheat;
+}
+#but1{
+    position: absolute;
+    top: 492px;
+    left: 910px;
+    font-size: 19px;
+    font-weight: 900;
+    color: wheat;
+}
+#heart:active{
+    color: red;
+    font-size: 1.5em;
+}
